@@ -5,9 +5,14 @@
     "description": "Exo-Node",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "nodemon server.js"
     },
     "dependencies": {
-        "express": "^4.21.2"
+        "express": "^4.21.2",
+        "nodemon": "^3.1.11",
+        "winston": "^3.19.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
     }
 }
